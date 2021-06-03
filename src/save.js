@@ -23,7 +23,7 @@ import { useBlockProps,InnerBlocks } from '@wordpress/block-editor';
  * @return {WPElement} Element to render.
  */
 export default function save({attributes}) {
-	const classes = attributes.className !== undefined ? ' '+attributes.className : '';
+	const classes = attributes.className !== undefined ? `${attributes.className} ` : '';
 
 	return (
 		<div { ...useBlockProps.save() }
