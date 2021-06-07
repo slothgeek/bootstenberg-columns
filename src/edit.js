@@ -47,9 +47,9 @@ export default function Edit({clientId, className, attributes, setAttributes}) {
 				<div className="sg-empty-inner-block">
 					<div className="sg-block-name">
 						<span class="dashicons dashicons-columns"></span>
-						Columna
+						{ __('Columna', 'bootstenberg-columns') }
 					</div>
-					Comienza a armar tu contenido con uno o más bloques de la librería presionando en el botón más.
+					{ __('Comienza a armar tu contenido con uno o más bloques de la librería presionando en el botón más.', 'bootstenberg-columns')}
 				</div>
 			)
 		}
@@ -62,7 +62,7 @@ export default function Edit({clientId, className, attributes, setAttributes}) {
 				<ToolbarGroup class="sg-toolbar">
 					<ToolbarButton
 						icon={ help }
-						label={__("Mostrar guía", "bootstenberg") }
+						label={__("Mostrar guía", "bootstenberg-columns") }
 						onClick={ () => setAttributes( {showGuide: !attributes.showGuide} ) }
 						className={ attributes.showGuide ? 'active' : ''}
 					/>
@@ -77,14 +77,14 @@ export default function Edit({clientId, className, attributes, setAttributes}) {
 				<PanelBody title="Grid">
 					<div className="sg-insppector">
 						<div className="label">
-							<span>Pantalla Pequeña</span>
-							<button className="btn-clean" onClick={() => setAttributes({small: ""})}>Limpiar
+							<span>{ __('Pantalla Pequeña', 'bootstenberg-columns') }</span>
+							<button className="btn-clean" onClick={() => setAttributes({small: ""})}>
+								{ __('Limpiar', 'bootstenberg-columns') }
 							</button>
 						</div>
 						<RadioGroup
 							onChange={ ( value ) => {
 								setAttributes( { small: value } );
-								//wp.hooks.addFilter('editor.BlockListBlock', 'sg/column', columnCustomClassName);
 							} }
 							defaultChecked="col-sm-12"
 							checked={ attributes.small }>
@@ -105,8 +105,9 @@ export default function Edit({clientId, className, attributes, setAttributes}) {
 
 					<div className="sg-insppector">
 						<div className="label">
-							<span>Pantalla Mediana</span>
-							<button className="btn-clean" onClick={() => setAttributes({medium: ""})}>Limpiar
+							<span> { __('Pantalla Mediana', 'bootstenberg-columns') }</span>
+							<button className="btn-clean" onClick={() => setAttributes({medium: ""})}>
+								{ __('Limpiar', 'bootstenberg-columns') }
 							</button>
 						</div>
 						<RadioGroup
@@ -133,8 +134,9 @@ export default function Edit({clientId, className, attributes, setAttributes}) {
 
 					<div className="sg-insppector">
 						<div className="label">
-							<span>Pantalla Grande</span>
-							<button className="btn-clean" onClick={() => setAttributes({large: ""})}>Limpiar
+							<span>{ __('Pantalla Grande', 'bootstenberg-columns') }</span>
+							<button className="btn-clean" onClick={() => setAttributes({large: ""})}>
+								{ __('Limpiar', 'bootstenberg-columns') }
 							</button>
 						</div>
 						<RadioGroup
@@ -163,8 +165,9 @@ export default function Edit({clientId, className, attributes, setAttributes}) {
 				<PanelBody title="Offset" initialOpen={ false }>
 					<div className="sg-insppector">
 						<div className="label">
-							<span>Pantalla Pequeña</span>
-							<button className="btn-clean" onClick={() => setAttributes({offsetSmall: ""})}>Limpiar
+							<span>{ __('Pantalla Pequeña', 'bootstenberg-columns') }</span>
+							<button className="btn-clean" onClick={() => setAttributes({offsetSmall: ""})}>
+								{ __('Limpiar', 'bootstenberg-columns') }
 							</button>
 						</div>
 						<RadioGroup
@@ -191,8 +194,9 @@ export default function Edit({clientId, className, attributes, setAttributes}) {
 
 					<div className="sg-insppector">
 						<div className="label">
-							<span>Pantalla Mediana</span>
-							<button className="btn-clean" onClick={() => setAttributes({offsetMedium: ""})}>Limpiar
+							<span>{ __('Pantalla Mediana', 'bootstenberg-columns') }</span>
+							<button className="btn-clean" onClick={() => setAttributes({offsetMedium: ""})}>
+								{ __('Limpiar', 'bootstenberg-columns') }
 							</button>
 						</div>
 						<RadioGroup
@@ -219,8 +223,10 @@ export default function Edit({clientId, className, attributes, setAttributes}) {
 
 					<div className="sg-insppector">
 						<div class="label">
-							<span>Pantalla grande</span>
-							<button className="btn-clean" onClick={ () => setAttributes( { offsetLarge: "" } )}>Limpiar</button>
+							<span>{ __('Pantalla grande', 'bootstenberg-columns') }</span>
+							<button className="btn-clean" onClick={ () => setAttributes( { offsetLarge: "" } )}>
+								{ __('Limpiar', 'bootstenberg-columns') }
+							</button>
 						</div>
 						<RadioGroup
 							onChange={ ( value ) => {
@@ -244,16 +250,16 @@ export default function Edit({clientId, className, attributes, setAttributes}) {
 						</RadioGroup>
 					</div>
 				</PanelBody>
-				<PanelBody title={ __( 'Estilo', 'bootstenberg' ) } initialOpen={ false }>
+				<PanelBody title={ __( 'Estilo', 'bootstenberg-columns' ) } initialOpen={ false }>
 					<div className="sg-inspector">
 						<div className="label">
-							<span>{ __( 'Color de fondo', 'bootstenberg' ) }</span>
+							<span>{ __( 'Color de fondo', 'bootstenberg-columns' ) }</span>
 							<button className="btn-clean" onClick={() => {
 								let style = attributes.style;
 								delete style.backgroundColor;
 								setAttributes( {style: style} );
 
-							}}>{ __( 'Limpiar', 'bootstenberg' ) }
+							}}>{ __( 'Limpiar', 'bootstenberg-columns' ) }
 							</button>
 						</div>
 						<ColorPicker
@@ -265,13 +271,13 @@ export default function Edit({clientId, className, attributes, setAttributes}) {
 					<div className="sg-inspector">
 
 						<div className="label">
-							<span>{ __( 'Color de texto', 'bootstenberg' ) }</span>
+							<span>{ __( 'Color de texto', 'bootstenberg-columns' ) }</span>
 							<button className="btn-clean" onClick={() => {
 								let style = attributes.style;
 								delete style.color;
 								setAttributes( {style: style} );
 
-							}}>{ __( 'Limpiar', 'bootstenberg' ) }
+							}}>{ __( 'Limpiar', 'bootstenberg-columns' ) }
 							</button>
 						</div>
 						<ColorPicker

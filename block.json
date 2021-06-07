@@ -2,7 +2,7 @@
 	"apiVersion": 2,
 	"name": "sg-block/bootstenberg-columns",
 	"title": "Bootstenberg Columns",
-	"category": "widgets",
+	"category": "layout",
 	"icon": "columns",
 	"description": "Example block written with ESNext standard and JSX support – build step required.",
 	"supports": {

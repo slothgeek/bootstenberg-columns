@@ -1,0 +1,90 @@
+# Copyright (C) 2021 SlothGeek
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Bootstenberg Columns (Gutenberg Block) 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bootstenberg-columns\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-06-07T12:50:43-05:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: bootstenberg-columns\n"
+
+#. Plugin Name of the plugin
+msgid "Bootstenberg Columns (Gutenberg Block)"
+msgstr ""
+
+#. Description of the plugin
+msgid "Bloque gutenberg para diseño de columnas basado en Bootstrap v5"
+msgstr ""
+
+#. Author of the plugin
+msgid "SlothGeek"
+msgstr ""
+
+#: src/edit.js:50
+msgid "Columna"
+msgstr ""
+
+#: src/edit.js:52
+msgid "Comienza a armar tu contenido con uno o más bloques de la librería presionando en el botón más."
+msgstr ""
+
+#: src/edit.js:65
+msgid "Mostrar guía"
+msgstr ""
+
+#: src/edit.js:80
+#: src/edit.js:168
+msgid "Pantalla Pequeña"
+msgstr ""
+
+#: src/edit.js:82
+#: src/edit.js:110
+#: src/edit.js:139
+#: src/edit.js:170
+#: src/edit.js:199
+#: src/edit.js:228
+#: src/edit.js:262
+#: src/edit.js:280
+msgid "Limpiar"
+msgstr ""
+
+#: src/edit.js:108
+#: src/edit.js:197
+msgid "Pantalla Mediana"
+msgstr ""
+
+#: src/edit.js:137
+msgid "Pantalla Grande"
+msgstr ""
+
+#: src/edit.js:226
+msgid "Pantalla grande"
+msgstr ""
+
+#: src/edit.js:253
+msgid "Estilo"
+msgstr ""
+
+#: src/edit.js:256
+msgid "Color de fondo"
+msgstr ""
+
+#: src/edit.js:274
+msgid "Color de texto"
+msgstr ""
+
+#: block.json
+msgctxt "block title"
+msgid "Bootstenberg Columns"
+msgstr ""
+
+#: block.json
+msgctxt "block description"
+msgid "Example block written with ESNext standard and JSX support – build step required."
+msgstr ""
