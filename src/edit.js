@@ -88,18 +88,18 @@ export default function Edit({clientId, className, attributes, setAttributes}) {
 							} }
 							defaultChecked="col-sm-12"
 							checked={ attributes.small }>
-							<Radio value=" col-sm-1">8%</Radio>
-							<Radio value=" col-sm-2">16%</Radio>
-							<Radio value=" col-sm-3">25%</Radio>
-							<Radio value=" col-sm-4">33%</Radio>
-							<Radio value=" col-sm-5">41%</Radio>
-							<Radio value=" col-sm-6">50%</Radio>
-							<Radio value=" col-sm-7">58%</Radio>
-							<Radio value=" col-sm-8">66%</Radio>
-							<Radio value=" col-sm-9">75%</Radio>
-							<Radio value=" col-sm-10">83%</Radio>
-							<Radio value=" col-sm-11">91%</Radio>
-							<Radio value=" col-sm-12">100%</Radio>
+							<Radio value=" col-sm-1">1</Radio>
+							<Radio value=" col-sm-2">2</Radio>
+							<Radio value=" col-sm-3">3</Radio>
+							<Radio value=" col-sm-4">4</Radio>
+							<Radio value=" col-sm-5">5</Radio>
+							<Radio value=" col-sm-6">6</Radio>
+							<Radio value=" col-sm-7">7</Radio>
+							<Radio value=" col-sm-8">8</Radio>
+							<Radio value=" col-sm-9">9</Radio>
+							<Radio value=" col-sm-10">10</Radio>
+							<Radio value=" col-sm-11">11</Radio>
+							<Radio value=" col-sm-12">12</Radio>
 						</RadioGroup>
 					</div>
 
@@ -117,18 +117,18 @@ export default function Edit({clientId, className, attributes, setAttributes}) {
 							} }
 							defaultChecked="col-sm-12"
 							checked={ attributes.medium }>
-							<Radio value=" col-md-1">8%</Radio>
-							<Radio value=" col-md-2">16%</Radio>
-							<Radio value=" col-md-3">25%</Radio>
-							<Radio value=" col-md-4">33%</Radio>
-							<Radio value=" col-md-5">41%</Radio>
-							<Radio value=" col-md-6">50%</Radio>
-							<Radio value=" col-md-7">58%</Radio>
-							<Radio value=" col-md-8">66%</Radio>
-							<Radio value=" col-md-9">75%</Radio>
-							<Radio value=" col-md-10">83%</Radio>
-							<Radio value=" col-md-11">91%</Radio>
-							<Radio value=" col-md-12">100%</Radio>
+							<Radio value=" col-md-1">1</Radio>
+							<Radio value=" col-md-2">2</Radio>
+							<Radio value=" col-md-3">3</Radio>
+							<Radio value=" col-md-4">4</Radio>
+							<Radio value=" col-md-5">5</Radio>
+							<Radio value=" col-md-6">6</Radio>
+							<Radio value=" col-md-7">7</Radio>
+							<Radio value=" col-md-8">8</Radio>
+							<Radio value=" col-md-9">9</Radio>
+							<Radio value=" col-md-10">10</Radio>
+							<Radio value=" col-md-11">11</Radio>
+							<Radio value=" col-md-12">12</Radio>
 						</RadioGroup>
 					</div>
 
@@ -146,18 +146,18 @@ export default function Edit({clientId, className, attributes, setAttributes}) {
 							} }
 							defaultChecked="col-sm-12"
 							checked={ attributes.large }>
-							<Radio value=" col-lg-1">8%</Radio>
-							<Radio value=" col-lg-2">16%</Radio>
-							<Radio value=" col-lg-3">25%</Radio>
-							<Radio value=" col-lg-4">33%</Radio>
-							<Radio value=" col-lg-5">41%</Radio>
-							<Radio value=" col-lg-6">50%</Radio>
-							<Radio value=" col-lg-7">58%</Radio>
-							<Radio value=" col-lg-8">66%</Radio>
-							<Radio value=" col-lg-9">75%</Radio>
-							<Radio value=" col-lg-10">83%</Radio>
-							<Radio value=" col-lg-11">91%</Radio>
-							<Radio value=" col-lg-12">100%</Radio>
+							<Radio value=" col-lg-1">1</Radio>
+							<Radio value=" col-lg-2">2</Radio>
+							<Radio value=" col-lg-3">3</Radio>
+							<Radio value=" col-lg-4">4</Radio>
+							<Radio value=" col-lg-5">5</Radio>
+							<Radio value=" col-lg-6">6</Radio>
+							<Radio value=" col-lg-7">7</Radio>
+							<Radio value=" col-lg-8">8</Radio>
+							<Radio value=" col-lg-9">9</Radio>
+							<Radio value=" col-lg-10">10</Radio>
+							<Radio value=" col-lg-11">11</Radio>
+							<Radio value=" col-lg-12">12</Radio>
 						</RadioGroup>
 					</div>
 				</PanelBody>
@@ -177,18 +177,18 @@ export default function Edit({clientId, className, attributes, setAttributes}) {
 							} }
 							defaultChecked="col-sm-12"
 							checked={ attributes.offsetSmall }>
-							<Radio value=" offset-sm-1">8%</Radio>
-							<Radio value=" offset-sm-2">16%</Radio>
-							<Radio value=" offset-sm-3">25%</Radio>
-							<Radio value=" offset-sm-4">33%</Radio>
-							<Radio value=" offset-sm-5">41%</Radio>
-							<Radio value=" offset-sm-6">50%</Radio>
-							<Radio value=" offset-sm-7">58%</Radio>
-							<Radio value=" offset-sm-8">66%</Radio>
-							<Radio value=" offset-sm-9">75%</Radio>
-							<Radio value=" offset-sm-10">83%</Radio>
-							<Radio value=" offset-sm-11">91%</Radio>
-							<Radio value=" offset-sm-12">100%</Radio>
+							<Radio value=" offset-sm-1">1</Radio>
+							<Radio value=" offset-sm-2">2</Radio>
+							<Radio value=" offset-sm-3">3</Radio>
+							<Radio value=" offset-sm-4">4</Radio>
+							<Radio value=" offset-sm-5">5</Radio>
+							<Radio value=" offset-sm-6">6</Radio>
+							<Radio value=" offset-sm-7">7</Radio>
+							<Radio value=" offset-sm-8">8</Radio>
+							<Radio value=" offset-sm-9">9</Radio>
+							<Radio value=" offset-sm-10">10</Radio>
+							<Radio value=" offset-sm-11">11</Radio>
+							<Radio value=" offset-sm-12">12</Radio>
 						</RadioGroup>
 					</div>
 
@@ -206,18 +206,18 @@ export default function Edit({clientId, className, attributes, setAttributes}) {
 							} }
 							defaultChecked="col-sm-12"
 							checked={ attributes.offsetMedium }>
-							<Radio value=" offset-md-1">8%</Radio>
-							<Radio value=" offset-md-2">16%</Radio>
-							<Radio value=" offset-md-3">25%</Radio>
-							<Radio value=" offset-md-4">33%</Radio>
-							<Radio value=" offset-md-5">41%</Radio>
-							<Radio value=" offset-md-6">50%</Radio>
-							<Radio value=" offset-md-7">58%</Radio>
-							<Radio value=" offset-md-8">66%</Radio>
-							<Radio value=" offset-md-9">75%</Radio>
-							<Radio value=" offset-md-10">83%</Radio>
-							<Radio value=" offset-md-11">91%</Radio>
-							<Radio value=" offset-md-12">100%</Radio>
+							<Radio value=" offset-md-1">1</Radio>
+							<Radio value=" offset-md-2">2</Radio>
+							<Radio value=" offset-md-3">3</Radio>
+							<Radio value=" offset-md-4">4</Radio>
+							<Radio value=" offset-md-5">5</Radio>
+							<Radio value=" offset-md-6">6</Radio>
+							<Radio value=" offset-md-7">7</Radio>
+							<Radio value=" offset-md-8">8</Radio>
+							<Radio value=" offset-md-9">9</Radio>
+							<Radio value=" offset-md-10">10</Radio>
+							<Radio value=" offset-md-11">11</Radio>
+							<Radio value=" offset-md-12">12</Radio>
 						</RadioGroup>
 					</div>
 
@@ -235,18 +235,18 @@ export default function Edit({clientId, className, attributes, setAttributes}) {
 							} }
 							defaultChecked="col-sm-12"
 							checked={ attributes.offsetLarge }>
-							<Radio value=" offset-lg-1">8%</Radio>
-							<Radio value=" offset-lg-2">16%</Radio>
-							<Radio value=" offset-lg-3">25%</Radio>
-							<Radio value=" offset-lg-4">33%</Radio>
-							<Radio value=" offset-lg-5">41%</Radio>
-							<Radio value=" offset-lg-6">50%</Radio>
-							<Radio value=" offset-lg-7">58%</Radio>
-							<Radio value=" offset-lg-8">66%</Radio>
-							<Radio value=" offset-lg-9">75%</Radio>
-							<Radio value=" offset-lg-10">83%</Radio>
-							<Radio value=" offset-lg-11">91%</Radio>
-							<Radio value=" offset-lg-12">100%</Radio>
+							<Radio value=" offset-lg-1">1</Radio>
+							<Radio value=" offset-lg-2">2</Radio>
+							<Radio value=" offset-lg-3">3</Radio>
+							<Radio value=" offset-lg-4">4</Radio>
+							<Radio value=" offset-lg-5">5</Radio>
+							<Radio value=" offset-lg-6">6</Radio>
+							<Radio value=" offset-lg-7">7</Radio>
+							<Radio value=" offset-lg-8">8</Radio>
+							<Radio value=" offset-lg-9">9</Radio>
+							<Radio value=" offset-lg-10">10</Radio>
+							<Radio value=" offset-lg-11">11</Radio>
+							<Radio value=" offset-lg-12">12</Radio>
 						</RadioGroup>
 					</div>
 				</PanelBody>

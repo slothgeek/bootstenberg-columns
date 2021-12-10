@@ -4,9 +4,12 @@
  * Replace them with your own styles or remove the file completely.
  */
 
+.editor-styles-wrapper .wp-block-sg-block-bootstenberg-columns{
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .wp-block-sg-block-bootstenberg-columns {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
 
   &.guide{
 	border: 1px dotted lightslategrey;
